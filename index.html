@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool test form</title>
+    <link href="form.css" rel="stylesheet">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <div class="main"> 
+        <div class="left"> 
+            <div class="innerleft"></div>
+        </div>
+        <div class="right">
+            <img class="mountainsimg" src="camping-4219962_1280.webp" alt="camp fire infront of sunrise over mountains" />
+<p>
+    Camping is the activity of spending overnight in the outdoors in a tent or other shelter. It is a popular pastime for people of all ages, and can be enjoyed in a variety of locations, from national parks and forests to backyards and campgrounds. Camping can be a great way to relax and enjoy the outdoors, and it can also be a fun and educational experience for children.
+    
+    There are many different types of camping, each with its own unique appeal. Some people enjoy primitive camping, which involves setting up camp in a remote location with no amenities. Others prefer to camp in campgrounds, which offer a variety of amenities, such as showers, restrooms, and picnic tables. There are also many different types of camping equipment available, from basic tents and sleeping bags to more luxurious options, such as RVs and campers.</p>
+        <h2 class="headline">Join <span class="emp">camplus</span> and enjoy your outdoor benefits now. 
+        Sign up today. <br /><br />You want to. <span class="emp"><br />You need to.</span></h2>
+
+
+        <form class="form1" onsubmit="return verifyPw()" id="form1">
+            <ul class="formlist">
+                <li><label id="name-label">First</label><input type="text" id="name" /></li>
+                <li>Email<input type="email" /></li>
+                <li>Last<input type="text" /></li>
+            </ul>
+            <ul class="formlist">
+                <li>Phone<input type="number" id="phone" /></li>
+                <span id = "message" style="color:red"> </span>
+                <li>Password<input type="password" id="password1" /></li>
+                <li>Confirm<input type="password" id="password2" /></li>
+            </ul>
+            
+        </form>
+        <button type="submit" value="submit" form="form1">SUBMIT</button>
+        <p>Already have an account? <a href="#">Log In</a></p>
+    </div>
+    </div>
+</body>
+</html>
